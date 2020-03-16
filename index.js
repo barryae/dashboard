@@ -8,10 +8,6 @@ const PORT = process.env.PORT || 3001;
 
 // mongoose.connect("mongodb://localhost/dashboard", { useNewUrlParser: true })
 
-app.get('/', function (req, res) {
-    prosemirror.exampleSetup(Object)
-})
-
 app.use('/graphql', graphqlHTTP({
     schema,
     graphiql: true,

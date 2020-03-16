@@ -11,3 +11,4 @@ Dashboard app using React, TypeScript, and GraphQL
     - create index.js for server
     - mkdir for graphql schema, add schema.js file
     -mkdir for mongooose models, add model.js
+    -talk to Christian in May
