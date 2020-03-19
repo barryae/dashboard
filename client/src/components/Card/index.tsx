@@ -46,11 +46,11 @@ export default function Card(props: { type: string; data: any[] }) {
                     enableDots={true}
                     dotSize={10}
                     dotBorderWidth={2}
-                    dotBorderColor='#61cdbb'
+                    dotBorderColor='#97e3d5'
                     enableDotLabel={true}
                     dotLabel="value"
                     dotLabelYOffset={-12}
-                    colors={['#61cdbb', '#97e3d5', '#e8c1a0', '#f47560']}
+                    colors={{ scheme: 'nivo' }}
                     fillOpacity={0.25}
                     blendMode="multiply"
                     animate={true}
