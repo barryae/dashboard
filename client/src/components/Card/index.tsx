@@ -1,8 +1,9 @@
 import * as React from "react";
-import { ResponsiveCalendar, ResponsiveRadar } from "nivo"
+import { ResponsiveCalendar } from "nivo"
+import { ResponsiveRadar } from "nivo"
 
-export default function Card(props: { type: string; data: { "day": string; "value": number; }[] }) {
-    function createCard(type: string, data: { "day": string; "value": number; }[]) {
+export default function Card(props: { type: string; data: any[] }) {
+    function createCard(type: string, data: any[]) {
 
         switch (type) {
             case 'ResponsiveCalendar':
@@ -39,19 +40,17 @@ export default function Card(props: { type: string; data: { "day": string; "valu
                     margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
                     curve="linearClosed"
                     borderWidth={2}
-                    borderColor={{ from: 'color' }}
                     gridLevels={5}
                     gridShape="circular"
                     gridLabelOffset={36}
                     enableDots={true}
                     dotSize={10}
-                    dotColor={{ theme: 'background' }}
                     dotBorderWidth={2}
-                    dotBorderColor={{ from: 'color' }}
+                    dotBorderColor='#61cdbb'
                     enableDotLabel={true}
                     dotLabel="value"
                     dotLabelYOffset={-12}
-                    colors={{ scheme: 'nivo' }}
+                    colors={['#61cdbb', '#97e3d5', '#e8c1a0', '#f47560']}
                     fillOpacity={0.25}
                     blendMode="multiply"
                     animate={true}
