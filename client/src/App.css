@@ -43,4 +43,5 @@
 
 .chart-parent {
   height: 50vh;
+  float: left;
 }
