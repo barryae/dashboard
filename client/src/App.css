@@ -1,5 +1,4 @@
 .App {
-  height: 100vh;
   text-align: center;
 }
 
@@ -38,6 +37,10 @@
   }
 }
 
+.main {
+  width: 90vw;
+}
+
 .chart-parent {
-  height: 40vh;
+  height: 50vh;
 }

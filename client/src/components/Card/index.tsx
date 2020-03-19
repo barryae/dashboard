@@ -50,7 +50,7 @@ export default function Card(props: { type: string; data: any[] }) {
                     enableDotLabel={true}
                     dotLabel="value"
                     dotLabelYOffset={-12}
-                    colors={{ scheme: 'nivo' }}
+                    colors={['#61cdbb', '#97e3d5', '#f47560']}
                     fillOpacity={0.25}
                     blendMode="multiply"
                     animate={true}
