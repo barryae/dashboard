@@ -4,7 +4,7 @@ export const barData =
         {
             "country": "AD",
             "hot dog": 94,
-            "hot dogColor": "hsl(197, 70%, 50%)",
+            "hot dogColor": "hsl(198, 70%, 50%)",
             "burger": 64,
             "burgerColor": "hsl(165, 70%, 50%)",
             "sandwich": 154,
