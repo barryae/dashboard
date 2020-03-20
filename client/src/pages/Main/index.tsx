@@ -7,9 +7,9 @@ export default function Main() {
 
     return (
         <div className="main">
-            <h1>Main</h1>
-            <Card type={"ResponsiveRadar"} data={radarData} />
+            <h1>Operational Dashboard</h1>
             <Card type={"ResponsiveCalendar"} data={calendarData} />
+            <Card type={"ResponsiveRadar"} data={radarData} />
         </div>
     )
 

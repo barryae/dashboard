@@ -37,7 +37,7 @@ export default function Card(props: { type: string; data: any[] }) {
                     keys={['chardonay', 'carmenere', 'syrah']}
                     indexBy="taste"
                     maxValue="auto"
-                    margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
+                    margin={{ top: 40, right: 10, bottom: 30, left: 10 }}
                     curve="linearClosed"
                     borderWidth={2}
                     gridLevels={5}
@@ -61,8 +61,8 @@ export default function Card(props: { type: string; data: any[] }) {
                         {
                             anchor: 'top-left',
                             direction: 'column',
-                            translateX: -50,
-                            translateY: -40,
+                            translateX: 50,
+                            translateY: 50,
                             itemWidth: 80,
                             itemHeight: 20,
                             itemTextColor: '#999',
