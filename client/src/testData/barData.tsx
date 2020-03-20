@@ -6,7 +6,7 @@ export const barData =
             "hot dog": 94,
             "hot dogColor": "hsl(198, 70%, 50%)",
             "burger": 64,
-            "burgerColor": "hsl(165, 70%, 50%)",
+            "burgerColor": "hsl(164, 70%, 50%)",
             "sandwich": 154,
             "sandwichColor": "hsl(321, 70%, 50%)",
             "kebab": 167,
