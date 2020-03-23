@@ -186,7 +186,7 @@ export default function Card(props: { order: number; type: string; data: any[] }
     }
 
     return (
-        <div className="chart-parent ">
+        <div>
             {createCard(props.order, props.type, props.data)}
         </div>
     )
