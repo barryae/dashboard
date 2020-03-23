@@ -8,7 +8,6 @@ export default function Card(props: { order: number; type: string; data: any[] }
         switch (type) {
             case 'ResponsiveCalendar':
                 return (
-
                     <ResponsiveCalendar
                         data={data}
                         from="2015-03-01"
@@ -95,7 +94,7 @@ export default function Card(props: { order: number; type: string; data: any[] }
                         indexBy="country"
                         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
                         padding={0.3}
-                        colors={{ scheme: 'nivo' }}
+                        colors={['#61cdbb', '#97e3d5', '#f47560']}
                         defs={[
                             {
                                 id: 'dots',
