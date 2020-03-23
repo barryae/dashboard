@@ -37,10 +37,18 @@
   }
 }
 
-.main {
-  width: 100vw;
+.card-1{
+height: 30vh;
 }
 
-.chart-parent {
-  height: 30vh;
+.card-2{
+height: 30vh;
+}
+
+.card-3{
+height: 30vh;
+}
+
+.main {
+  width: 100vw;
 }
