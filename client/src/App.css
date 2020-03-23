@@ -38,26 +38,34 @@
 }
 
 .card-layout{
+  width:100vw;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: auto auto;
   grid-template-areas: 
-  "card-1 card-2"
-  "card-3 card-3";
+  "card-1 card-1 card-2"
+  "card-3 card-3 card-3";
 }
 
 .card-1{
 height: 30vh;
+width: 55vw;
 grid-area: card-1;
 }
 
 .card-2{
 height: 30vh;
+width: 40vw;
 grid-area: card-2;
 }
 
 .card-3{
 height: 30vh;
+width: 70vw;
 grid-area: card-3;
 }
 
 .main {
+  margin:auto;
   width: 100vw;
 }
