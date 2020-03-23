@@ -37,16 +37,25 @@
   }
 }
 
+.card-layout{
+  grid-template-areas: 
+  "card-1 card-2"
+  "card-3 card-3";
+}
+
 .card-1{
 height: 30vh;
+grid-area: card-1;
 }
 
 .card-2{
 height: 30vh;
+grid-area: card-2;
 }
 
 .card-3{
 height: 30vh;
+grid-area: card-3;
 }
 
 .main {
