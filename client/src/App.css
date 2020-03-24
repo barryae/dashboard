@@ -51,23 +51,23 @@
 
 .card-1{
   margin: auto;
-height: 30vh;
-width: 55vw;
-grid-area: card-1;
+  height: 30vh;
+  width: 55vw;
+  grid-area: card-1;
 }
 
 .card-2{
-margin: auto;
+  margin: auto;
   height: 30vh;
-width: 40vw;
-grid-area: card-2;
+  width: 40vw;
+  grid-area: card-2;
 }
 
 .card-3{
-margin: auto;
-height: 30vh;
-width: 70vw;
-grid-area: card-3;
+  margin: auto;
+  height: 30vh;
+  width: 70vw;
+  grid-area: card-3;
 }
 
 .main {
