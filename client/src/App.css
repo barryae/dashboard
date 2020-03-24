@@ -42,9 +42,11 @@
   display: grid;
   grid-template-columns: 3fr 3fr;
   grid-template-rows: auto auto;
-  grid-template-areas: 
-  "card-1 card-1 card-2"
-  "card-3 card-3 card-3";
+   grid-template-areas: 
+    "card-1"
+    "card-2"
+    "card-3"
+    ;
 }
 
 .card-1{
@@ -69,4 +71,12 @@ grid-area: card-3;
   margin:auto;
   width: 100vw;
   height: 100vh;
+}
+
+@media (min-width: 700px){
+  .card-layout{
+    grid-template-areas: 
+  "card-1 card-1 card-2"
+  "card-3 card-3 card-3";
+  }
 }
