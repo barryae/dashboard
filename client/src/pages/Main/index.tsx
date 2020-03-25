@@ -10,9 +10,9 @@ export default function Main() {
         <div className="main">
             <h1>Operational Dashboard</h1>
             <div className="card-layout">
-                <Card order={1} type={"ResponsiveCalendar"} data={calendarData} />
+                <Card order={3} type={"ResponsiveCalendar"} data={calendarData} />
                 <Card order={2} type={"ResponsiveRadar"} data={radarData} />
-                <Card order={3} type={"ResponsiveBar"} data={barData} />
+                <Card order={1} type={"ResponsiveBar"} data={barData} />
             </div>
         </div>
     )
