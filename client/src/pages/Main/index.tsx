@@ -2,6 +2,7 @@ import React from "react";
 import { calendarData } from "../../testData/calendarData"
 import { radarData } from "../../testData/radarData"
 import { barData } from "../../testData/barData"
+import { lineData } from "../../testData/lineData"
 import Card from "../../components/Card"
 
 export default function Main() {
@@ -13,6 +14,7 @@ export default function Main() {
                 <Card order={3} type={"ResponsiveCalendar"} data={calendarData} />
                 <Card order={2} type={"ResponsiveRadar"} data={radarData} />
                 <Card order={1} type={"ResponsiveBar"} data={barData} />
+                <Card order={4} type={"ResponsiveLine"} data={lineData} />
             </div>
         </div>
     )
