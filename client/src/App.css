@@ -47,6 +47,7 @@
     "card-2"
     "card-3"
     "card-4"
+    "card-5"
     ;
 }
 
@@ -78,6 +79,13 @@
   grid-area: card-4;
 }
 
+.card-5{
+  margin: auto;
+  height: 40vh;
+  width: 80vw;
+  grid-area: card-5;
+}
+
 .main {
   margin:auto;
   width: 90vw;
@@ -88,7 +96,8 @@
   .card-layout{
     grid-template-areas: 
   "card-1 card-2"
-  "card-3 card-4";
+  "card-3 card-4"
+  "card-5 .";
   }
 
   .card-1{
@@ -113,5 +122,11 @@
   margin: auto;
   width: 40vw;
   grid-area: card-4;
+}
+
+.card-5{
+  margin: auto;
+  width: 40vw;
+  grid-area: card-5;
 }
 }

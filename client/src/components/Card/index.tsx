@@ -6,6 +6,10 @@ export default function Card(props: { order: number; type: string; data: any[] }
     function createCard(type: string, data: any[]) {
 
         switch (type) {
+            case 'Text':
+                return (
+                    <p>{data}</p>
+                )
             case 'ResponsiveCalendar':
                 return (
                     <ResponsiveCalendar
