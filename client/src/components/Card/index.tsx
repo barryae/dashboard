@@ -186,7 +186,7 @@ export default function Card(props: { order: number; type: string; data: any[] }
 
                     <ResponsiveLine
                         data={data}
-                        margin={{ top: 50, right: 20, bottom: 50, left: 60 }}
+                        margin={{ top: 30, right: 20, bottom: 40, left: 60 }}
                         xScale={{ type: 'point' }}
                         yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
                         axisTop={null}
