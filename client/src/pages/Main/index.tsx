@@ -12,11 +12,11 @@ export default function Main() {
         <div className="main">
             <h1>Operational Dashboard</h1>
             <div className="card-layout">
-                <Card order={3} type={"ResponsiveCalendar"} data={calendarData} />
-                <Card order={2} type={"ResponsiveRadar"} data={radarData} />
-                <Card order={1} type={"ResponsiveBar"} data={barData} />
-                <Card order={4} type={"ResponsiveLine"} data={lineData} />
-                <Card order={5} type={"Text"} data={textData} />
+                <Card order={3} classes="card" type={"ResponsiveCalendar"} data={calendarData} />
+                <Card order={2} classes="card" type={"ResponsiveRadar"} data={radarData} />
+                <Card order={1} classes="card" type={"ResponsiveBar"} data={barData} />
+                <Card order={4} classes="card" type={"ResponsiveLine"} data={lineData} />
+                <Card order={5} classes="card text" type={"Text"} data={textData} />
             </div>
         </div>
     )

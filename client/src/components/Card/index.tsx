@@ -2,7 +2,7 @@ import * as React from "react";
 import { ResponsiveCalendar, ResponsiveRadar, ResponsiveBar, ResponsiveLine } from "nivo"
 
 
-export default function Card(props: { order: number; type: string; data: any[] }) {
+export default function Card(props: { order: number; classes: string; type: string; data: any[] }) {
     function createCard(type: string, data: any[]) {
 
         switch (type) {
@@ -253,7 +253,7 @@ export default function Card(props: { order: number; type: string; data: any[] }
     }
 
     return (
-        <div className={'card-' + props.order}>
+        <div className={'card-' + props.order + " " + props.classes}>
             {createCard(props.type, props.data)}
         </div>
     )
