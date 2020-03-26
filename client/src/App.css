@@ -84,7 +84,7 @@
   height: 100vh;
 }
 
-@media (min-width: 700px){
+@media (min-width: 800px){
   .card-layout{
     grid-template-areas: 
   "card-1 card-2"
@@ -93,28 +93,28 @@
 
   .card-1{
   margin: auto;
-  height: 30vh;
+  
   width: 40vw;
   grid-area: card-1;
 }
 
 .card-2{
   margin: auto;
-  height: 30vh;
+  
   width: 40vw;
   grid-area: card-2;
 }
 
 .card-3{
   margin: auto;
-  height: 30vh;
+  
   width: 40vw;
   grid-area: card-3;
 }
 
 .card-4{
   margin: auto;
-  height: 30vh;
+  
   width: 40vw;
   grid-area: card-4;
 }
