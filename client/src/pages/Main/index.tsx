@@ -10,7 +10,9 @@ export default function Main() {
 
     return (
         <div className="main">
-            <h1>Operational Dashboard</h1>
+            <div className="main-header">
+                <h1>Dashboard</h1>
+            </div>
             <div className="card-layout">
                 <Card order={3} classes="card" type={"ResponsiveCalendar"} data={calendarData} />
                 <Card order={2} classes="card" type={"ResponsiveRadar"} data={radarData} />
