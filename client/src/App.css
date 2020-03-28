@@ -16,7 +16,8 @@ background-color: #282c34;
 }
 
 .main-header{
-  padding: 1vh;
+  text-align: left;
+  padding: 1vh 1vh 1vh 3vh;
   border-radius: 5px 5px 0 0;
   color: white;
   background-color: rgba(240, 248, 255, 0.295);
