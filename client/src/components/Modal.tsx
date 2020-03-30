@@ -3,15 +3,15 @@ import * as React from "react"
 interface ModalProps {
     handleClose: any
     show: boolean
-    children: any
+    card: any
 }
 
-export const Modal: React.FC<ModalProps> = ({ handleClose, show, children }) => {
+export const Modal: React.FC<ModalProps> = ({ handleClose, show, card }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none"
     return (
         <div className={showHideClassName}>
-            <section className="modal-main">
-                {children}
+            <section className={"modal-main"}>
+                {card}
                 <button onClick={handleClose}>close</button>
             </section>
         </div>
