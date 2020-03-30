@@ -11,8 +11,8 @@ export const Modal: React.FC<ModalProps> = ({ handleClose, show, card }) => {
     return (
         <div className={showHideClassName}>
             <section className={"modal-main"}>
+                <button className="modal-button" onClick={handleClose}>X</button>
                 {card}
-                <button onClick={handleClose}>close</button>
             </section>
         </div>
     )
