@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/barryae/dashboard/static/css/main.24265622.chunk.css",
+    "main.js": "/barryae/dashboard/static/js/main.6c87a1c0.chunk.js",
+    "main.js.map": "/barryae/dashboard/static/js/main.6c87a1c0.chunk.js.map",
+    "runtime-main.js": "/barryae/dashboard/static/js/runtime-main.b783353a.js",
+    "runtime-main.js.map": "/barryae/dashboard/static/js/runtime-main.b783353a.js.map",
+    "static/js/2.38174b42.chunk.js": "/barryae/dashboard/static/js/2.38174b42.chunk.js",
+    "static/js/2.38174b42.chunk.js.map": "/barryae/dashboard/static/js/2.38174b42.chunk.js.map",
+    "index.html": "/barryae/dashboard/index.html",
+    "precache-manifest.a0b8d0e3c4c8b1a97fb4baff497d71d4.js": "/barryae/dashboard/precache-manifest.a0b8d0e3c4c8b1a97fb4baff497d71d4.js",
+    "service-worker.js": "/barryae/dashboard/service-worker.js",
+    "static/css/main.24265622.chunk.css.map": "/barryae/dashboard/static/css/main.24265622.chunk.css.map",
+    "static/js/2.38174b42.chunk.js.LICENSE.txt": "/barryae/dashboard/static/js/2.38174b42.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b783353a.js",
+    "static/js/2.38174b42.chunk.js",
+    "static/css/main.24265622.chunk.css",
+    "static/js/main.6c87a1c0.chunk.js"
+  ]
+}
