@@ -7,7 +7,7 @@ import { Modal } from "../components/Modal"
 export default function Main() {
     let [show, setShow] = useState(false)
     let [card, setCard] = useState(0)
-    let createdCards: any;
+    let createdCards: any[];
 
     function showModal() {
         setShow(show = true)

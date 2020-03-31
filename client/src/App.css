@@ -25,6 +25,7 @@ background-color: #282c34;
 }
 
 .modal-main {
+  padding: .5rem;
   position:fixed;
   background: white;
   width: 95%;
@@ -36,6 +37,7 @@ background-color: #282c34;
 
 .modal-button{
   display: block;
+  float: right;
 }
 
 .display-block {
@@ -61,10 +63,14 @@ background-color: #282c34;
 
 .text{
   font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
 }
 
 .card-title{
+  padding: 0vh 1vh 0vh 3vh;
   display: block;
+  text-align: left;
+  color: cadetblue;
 }
 
 .card-layout{
