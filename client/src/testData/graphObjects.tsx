@@ -7,7 +7,7 @@ import { textData } from "../testData/textData"
 export const graphObjects = [
     {
         title: "Calendar",
-        order: 3,
+        order: 1,
         classes: "card calendar",
         type: "ResponsiveCalendar",
         data: calendarData
@@ -21,7 +21,7 @@ export const graphObjects = [
     },
     {
         title: "Bar Graph",
-        order: 1,
+        order: 3,
         classes: "card bar-graph",
         type: "ResponsiveBar",
         data: barData

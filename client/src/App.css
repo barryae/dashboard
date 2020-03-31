@@ -157,28 +157,4 @@ margin: auto;
   "card-5 .";
   }
 
-  .card-1{
-  margin: auto;
-  grid-area: card-1;
-  }
-
-.card-2{
-  margin: auto;
-  grid-area: card-2;
-}
-
-.card-3{
-  margin: auto;
-  grid-area: card-3;
-}
-
-.card-4{
-  margin: auto;
-  grid-area: card-4;
-}
-
-.card-5{
-  margin: auto;
-  grid-area: card-5;
-}
 }
