@@ -14,13 +14,20 @@ For next steps, I will be adding a backend using GraphQL and MongoDB (or Rethink
 
 ## Process for creating this app
 
-    - Create repo
+    - Created repo
     - Clone to local machine
     - npm init -y
     - npm i express express-graphql graphql mongoose
     - create index.js for server
     - mkdir for graphql schema, add schema.js file
     - mkdir for mongooose models, add model.js
+    - shifted focus to front end
+    - created React App
+    - Created Main page
+    - Created Card component and troubleshot Nivo chart implementation
+    - Created responsive styling with CSS Grid for mobile and desktop
+    - Created Modal component and integrated it with Main, and Card
+    - Refactored and cut Main code length into a third of what it was
 
 ### Design
 
