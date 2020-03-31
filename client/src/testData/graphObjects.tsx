@@ -8,28 +8,28 @@ export const graphObjects = [
     {
         title: "Calendar",
         order: 3,
-        classes: "card",
+        classes: "card calendar",
         type: "ResponsiveCalendar",
         data: calendarData
     },
     {
         title: "Radar",
         order: 2,
-        classes: "card",
+        classes: "card radar",
         type: "ResponsiveRadar",
         data: radarData
     },
     {
         title: "Bar Graph",
         order: 1,
-        classes: "card",
+        classes: "card bar-graph",
         type: "ResponsiveBar",
         data: barData
     },
     {
         title: "Line Graph",
         order: 4,
-        classes: "card",
+        classes: "card line-graph",
         type: "ResponsiveLine",
         data: lineData
     },

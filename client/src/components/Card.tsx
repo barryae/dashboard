@@ -253,14 +253,14 @@ export default function Card(props: { order: number; classes: string; type: stri
     }
 
     return (
-        <>
+        <div>
             <h3 className="card-title">
                 {props.title}
             </h3>
-            <div className={'card-' + props.order + " " + props.classes}>
+            <div className={props.classes}>
                 {createCard(props.type, props.data)}
             </div>
-        </>
+        </div>
     )
 
 }

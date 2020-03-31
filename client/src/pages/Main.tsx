@@ -24,7 +24,7 @@ export default function Main() {
     function renderCards(array: any[]) {
         let cards = array;
         createdCards = cards.map(card => {
-            return (<div onClick={() => {
+            return (<div className={"card-" + card.order} onClick={() => {
                 sendCard(<Card order={card.order} classes={card.classes + " clicked"} type={card.type} data={card.data} title={card.title} />)
                 showModal();
             }}>
