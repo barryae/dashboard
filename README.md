@@ -2,6 +2,10 @@
 
 Dashboard app using React, TypeScript, and GraphQL
 
+## Deployed Link
+
+<https://barryae.github.io/dashboard/>
+
 ## Description
 
 Dashboard is a template using React and Nivo analytical charts to render a simple and easy to use basic dashboard. Included are example datasets to show an example of what the dashboard looks like and which graphs are currently available. All you would need to do to customize this dashboard is to add your own graphObjects file for each different graph you want as well as any files for the data itself. 
